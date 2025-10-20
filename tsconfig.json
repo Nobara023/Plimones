@@ -22,3 +22,4 @@
   "include": ["src", "app", "components", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }
+  
