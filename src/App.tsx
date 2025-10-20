@@ -3,6 +3,7 @@ import { LoginPage } from "./components/LoginPage";
 import { AdminDashboard } from "./components/AdminDashboard";
 import { CompanyDashboard } from "./components/CompanyDashboard";
 import { Toaster } from "./components/ui/sonner";
+import { useClarity } from "./hooks/useClarity";
 
 export default function App() {
   const [userRole, setUserRole] = useState<string | null>(null);
@@ -10,6 +11,11 @@ export default function App() {
   const handleLogin = (role: string) => {
     setUserRole(role);
   };
+
+   if (import.meta.env.PROD) {
+    useClarity("tsz7zx0f0i"); // 👈 tu ID de Clarity
+  }
+
 
   const handleLogout = () => {
     setUserRole(null);
