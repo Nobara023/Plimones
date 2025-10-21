@@ -4,7 +4,7 @@ import { AdminDashboard } from "./components/AdminDashboard";
 import { CompanyDashboard } from "./components/CompanyDashboard";
 import { Toaster } from "./components/ui/sonner";
 import { useClarity } from "./hooks/useClarity";
-
+//CLARITY
 export default function App() {
   const [userRole, setUserRole] = useState<string | null>(null);
 
