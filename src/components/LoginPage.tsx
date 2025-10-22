@@ -87,7 +87,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
             <div className="mt-6 p-4 bg-muted rounded-lg">
               <p className="text-xs text-muted-foreground mb-2">Credenciales de prueba:</p>
               <p className="text-xs">Admin: admin@lemon.com</p>
-              <p className="text-xs">Empresa: empresa@export.com</p>
+              <p className="text-xs">Usuario: Ingresa cualquier correo y contraseña</p>
               <br></br>
               <p className="text-xs text-muted-foreground mb-2">INGRESE CUALQUIER CONTRASEÑA PARA INICIAR SESIÓN</p>
             </div>
